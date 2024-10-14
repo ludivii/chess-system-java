@@ -32,6 +32,11 @@ public class Position {
 	public void setColumn(Integer column) {
 		this.column = column;
 	}
+	
+	public void setValues(int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
 
 	@Override
 	public int hashCode() {
@@ -54,6 +59,7 @@ public class Position {
 	public String toString() {
 		return row + ", " + column;
 	}
+	
 	
 	
 }
